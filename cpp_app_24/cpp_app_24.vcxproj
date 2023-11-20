@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Boiler.cpp" />
     <ClCompile Include="Content.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Boiler.h" />
     <ClInclude Include="Content.h" />
     <ClInclude Include="Logger.h" />
   </ItemGroup>
