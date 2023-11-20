@@ -10,6 +10,9 @@
     <Filter Include="Logger">
       <UniqueIdentifier>{82d9ce8a-231d-4263-b2aa-9aa76a6d4404}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Iron">
+      <UniqueIdentifier>{80671834-cb2b-40af-994a-981dc588f05d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -18,6 +21,9 @@
     <ClCompile Include="Content.cpp">
       <Filter>Content</Filter>
     </ClCompile>
+    <ClCompile Include="Iron.cpp">
+      <Filter>Iron</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Content.h">
@@ -25,6 +31,9 @@
     </ClInclude>
     <ClInclude Include="Logger.h">
       <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Iron.h">
+      <Filter>Iron</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
