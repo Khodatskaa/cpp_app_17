@@ -3,7 +3,7 @@
 
 #include <string>
 
-class Iron {
+struct Iron {
 public:
     Iron(const std::string& firm, const std::string& model, const std::string& color,
         int minTemp, int maxTemp, bool steamSupply, int power);
